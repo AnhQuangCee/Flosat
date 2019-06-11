@@ -1,2 +1,2 @@
-# Flosat.github.io
+# Flosat
 Flosat
