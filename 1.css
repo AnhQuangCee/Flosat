@@ -1,11 +1,29 @@
 *{margin:0;padding:0; }
  /*INDEX*/
+ .index{
+ 	padding-top: 40px;
+ }
  .index .menu a{
  	text-decoration: none;
- 	color: white;
+ 	color: #eee;
+ 	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
  }
- .nav > li > a:hover, .nav > li > a:focus {\
- 	background-color:transparent;
+ .index a.logo{
+ 	color: #4B889E;
+ 	font-size: 30px;
+ }
+.nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+}
+.index .dropdown ul a{
+	color: #4F7583;
+}
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+    background-color: transparent;
+    border-color: #337ab7;
 }
 .index{
 	background-image: url("images/background.jpg");
@@ -13,10 +31,11 @@
 	height: 720px;
 }
 .index .container h1{
-	padding-top: 50%;
+	padding-top: 40%;
 	color: #4F7583;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 70px;
+	text-transform: capitalize;
 }
 .index p{
 	padding-top: 1%;
@@ -30,6 +49,8 @@
 	background-color: #4B889E;
 	padding: 10px 20px;
 	transition: 0.4s;
+	padding: 12px 30px;
+	font-size: 20px;
 }
 .index .getStarted:hover{
 	color: #4B889E;
@@ -83,14 +104,14 @@ h1{
 
 /*FEATURE*/
 .feature {
- 	padding: 40px 0px;
+ 	padding: 60px 0px;
 }
 .feature h1{
 	text-align: center;
 	text-transform: uppercase;
 	color: #707070;
 	font-family: 'Montserrat', sans-serif;
-	font-size: 25px;
+	font-size: 30px;
 }
 .feature .description{
  	text-align: center;
@@ -107,27 +128,57 @@ h1{
 	font-size: 70px;
 	background-color: #E94343;
 	border-radius: 7px 7px 0px 0px;
-	padding: 20px 0px;
+	padding: 30px 0px;
 }
 .feature .chat .icon{
 	color: white;
 	font-size: 70px;
 	background-color: #318CAE;
 	border-radius: 7px 7px 0px 0px;
-	padding: 20px 0px;
+	padding: 30px 0px;
 }
 .feature .agile .icon{
 	color: white;
 	font-size: 70px;
 	background-color: #5AA97F;
 	border-radius: 7px 7px 0px 0px;
-	padding: 20px 0px;
+	padding: 30px 0px;
 }
-.feature .border{
+.feature .flowchart .border{
 	transition: 0.4s;
 	border-radius: 7px;
 	margin: 10px 20px;
 	box-shadow: 0px 4px 8px gray;
+	border-bottom: 15px solid transparent;
+	transition: 0.4s;
+	cursor: pointer;
+}
+.feature .chat .border{
+	transition: 0.4s;
+	border-radius: 7px;
+	margin: 10px 20px;
+	box-shadow: 0px 4px 8px gray;
+	border-bottom: 15px solid transparent;
+	cursor: pointer;
+	transition: 0.4s;
+}
+.feature .agile .border{
+	transition: 0.4s;
+	border-radius: 7px;
+	margin: 10px 20px;
+	box-shadow: 0px 4px 8px gray;
+	border-bottom: 15px solid transparent;
+	cursor: pointer;
+	transition: 0.4s;
+}
+.feature .flowchart .border:hover{
+	border-bottom: 15px solid #E94343;
+}
+.feature .chat .border:hover{
+	border-bottom: 15px solid #318CAE;
+}
+.feature .agile .border:hover{
+	border-bottom: 15px solid #5AA97F;
 }
 .feature .flowchart h2{
 	font-family: 'Montserrat', sans-serif;
