@@ -4,19 +4,55 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">  
 	<script type="text/javascript" src="vendor/bootstrap.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="vendor/bootstrap.css">
  	<link rel="stylesheet" href="1.css">
 </head>
 <body >
-    <header>
+    <div class="menu navbar">
     	<div class="container">
-    		<div class="row">
-    			
+    		<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					 <span class="sr-only">Toggle navigation</span>
+					 <span class="icon-bar"></span>
+					 <span class="icon-bar"></span>
+					 <span class="icon-bar"></span>
+				</button>
+			<a href="" class="navbar-brand">Flosat</a>
+			</div>
+			
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    			<ul class="nav navbar-nav navbar-right">
+    				<li><a href="#home">Why Flosat?</a></li>
+    				<li><a href="#portfolio">Feature</a></li>
+    				<li><a href="#about">Resource</a></li>
+    				<li><a href="#contact">Pricing</a></li>
+					<li class="dropdown">
+			          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fas fa-user"></i></a>
+			          <ul class="dropdown-menu">
+			            <li><a href="#"><i class="fas fa-user"></i>	Profile</a></li>
+			            <li><a href="#"><i class="fas fa-cog"></i>	Setting</a></li>
+			            <li role="separator" class="divider"></li>
+			            <li><a href="#"><i class="fas fa-sign-in-alt"></i>	Sign out</a></li>
+			          </ul>
+			        </li>
+    			</ul>
     		</div>
     	</div>
-    </header>
-	<!-- end header -->
+    </div>
+    <!-- end menu -->
 
+    <div class="index">
+    	<div class="container">
+    		<div class="row">
+    			<div class="col-md-4">
+    				<h1>Flosat</h1>
+    				<p>Easy connect, easy to use!</p>
+    				<div class="btn btn-info">Get started</div>
+    			</div>
+    		</div>
+    	</div>
+    </div>
 	<div class="whatIsFlosat">
 		<div class="container">
 			<div class="row">
@@ -26,15 +62,17 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-4 video">
-					
+				<div class="col-md-5 video">
+					<div class="embed-responsive embed-responsive-16by9">
+					  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/v64KOxKVLVg"></iframe>
+					</div>
 				</div>
 				<!-- end video -->
 
-				<div class="col-md-6 info">
-					<h1>We are leading software provider of solutions</h1>
-					<p>Bacon ipsum dolor amet rump pastrami leberkas shankle cow, drumstick picanha pancetta shoulder bacon kielbasa ground round sirloin strip steak. Short ribs alcatra turkey buffalo pig ribeye spare ribs rump drumstick meatloaf leberkas shoulder brisket frankfurter.</p>
-					<div class="btn btn-info">Read more <i class="fas fa-chevron-right"></i></div>
+				<div class="col-md-5 info">
+					<h1 class="titleFeature">We are leading software provider of solutions</h1>
+					<p class="descriptionFeature">Bacon ipsum dolor amet rump pastrami leberkas shankle cow, drumstick picanha pancetta shoulder bacon kielbasa ground round sirloin strip steak. Short ribs alcatra turkey buffalo pig ribeye spare ribs rump drumstick meatloaf leberkas shoulder brisket frankfurter.</p>
+					<div class="btn btn-info readMore">Read more <i class="fas fa-chevron-right"></i></div>
 				</div>
 			</div>
 		</div>
@@ -53,44 +91,50 @@
 
 			<div class="row">
 				<div class="col-md-4 flowchart">
-					<h2>Flowchart</h2>
-					<div class="icon">
-						<i class="fas fa-project-diagram"></i>
+					<div class="border">
+						<div class="icon">
+							<i class="fas fa-project-diagram"></i>
+						</div>
+						<h2>Flowchart</h2>
+						<ul>
+							<li>Bacon ipsum dolor amet </li>
+							<li>Short ribs alcatra turkey</li>
+							<li>Short loin drumstick jerky</li>
+							<li>Frankfurter sirloin ham</li>
+						</ul>
 					</div>
-					<ul>
-						<li>Bacon ipsum dolor amet </li>
-						<li>Short ribs alcatra turkey</li>
-						<li>Short loin drumstick jerky</li>
-						<li>Frankfurter sirloin ham</li>
-					</ul>
 				</div>
 				<!-- end Flowchart -->
 
 				<div class="col-md-4 chat">
-					<h2>Chat</h2>
-					<div class="icon">
-						<i class="fas fa-comments"></i>
+					<div class="border">
+						<div class="icon">
+							<i class="fas fa-comments"></i>
+						</div>
+						<h2>Chat</h2>
+						<ul>
+							<li>Bacon ipsum dolor amet </li>
+							<li>Short ribs alcatra turkey</li>
+							<li>Short loin drumstick jerky</li>
+							<li>Frankfurter sirloin ham</li>
+						</ul>
 					</div>
-					<ul>
-						<li>Bacon ipsum dolor amet </li>
-						<li>Short ribs alcatra turkey</li>
-						<li>Short loin drumstick jerky</li>
-						<li>Frankfurter sirloin ham</li>
-					</ul>
 				</div>
 				<!-- end Chat -->
 
 				<div class="col-md-4 agile">
-					<h2>Agile</h2>
-					<div class="icon">
-						<i class="fas fa-project-diagram"></i>
+					<div class="border">
+						<div class="icon">
+							<i class="fas fa-project-diagram"></i>
+						</div>
+						<h2>Agile</h2>
+						<ul>
+							<li>Bacon ipsum dolor amet </li>
+							<li>Short ribs alcatra turkey</li>
+							<li>Short loin drumstick jerky</li>
+							<li>Frankfurter sirloin ham</li>
+						</ul>
 					</div>
-					<ul>
-						<li>Bacon ipsum dolor amet </li>
-						<li>Short ribs alcatra turkey</li>
-						<li>Short loin drumstick jerky</li>
-						<li>Frankfurter sirloin ham</li>
-					</ul>
 				</div>
 				<!-- end Agile -->
 			</div>
@@ -128,9 +172,67 @@
 	<footer>
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12">
-					
+				<div class="col-md-4">
+					<h1>Flosat</h1>
+					<p>Easy connect, easy to use!</p>
+					<p>Contact us</p>
+					<span class="facebook"><i class="fab fa-facebook-f"></i></span>
+					<span class="twitter"><i class="fab fa-twitter"></i></span>
+					<span class="gmail"><i class="fas fa-envelope"></i></span>
+					<p>Copyright <i class="far fa-copyright"></i> by Flosat 2019</p>
 				</div>
+				<div class="col-md-6">
+					<div class="col-md-3">
+					<p>Product</p>
+					<ul>
+						<li>Why Flosat?</li>
+						<li>Flowchart</li>
+						<li>Scrum</li>
+						<li>Security</li>
+						<li>Pricing</li>
+					</ul>
+					</div>
+					<!-- end Product -->
+
+					<div class="col-md-3">
+						<p>Flosat for team</p>
+						<ul>
+							<li>Why Flosat?</li>
+							<li>Flowchart</li>
+							<li>Scrum</li>
+							<li>Security</li>
+							<li>Pricing</li>
+							<li>Security</li>
+							<li>Pricing</li>
+						</ul>
+					</div>
+					<!-- end Flosat for team -->
+
+					<div class="col-md-3">
+						<p>Resources</p>
+						<ul>
+							<li>Why Flosat?</li>
+							<li>Flowchart</li>
+							<li>Scrum</li>
+						</ul>
+					</div>
+					<!-- end Resource -->
+
+					<div class="col-md-3">
+						<p>Company</p>
+						<ul>
+							<li>Why Flosat?</li>
+							<li>Flowchart</li>
+							<li>Scrum</li>
+							<li>Security</li>
+							<li>Pricing</li>
+							<li>Pricing</li>
+						</ul>
+					</div>
+					<!-- end Company -->
+				</div>
+			</div>
+			<!-- end Infomation -->
 			</div>
 		</div>
 	</footer>

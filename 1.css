@@ -1,4 +1,79 @@
 *{margin:0;padding:0; }
  
+/*WHAT IS FLOSAT*/
+h1{
+	text-transform: uppercase;
+	color: #707070;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 25px;
+ }
+ .whatIsFlosat{
+ 	background-color: #E9E9E9;
+ 	padding: 40px 0px;
+ }
+ .video{
+ 	margin-bottom: 20px;
+ }
+ .description{
+ 	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	color: #707070;
+	padding-bottom: 20px;
+ }
+.titleFeature{
+	margin: 0px 0px 15px 0px;
+	text-transform: capitalize;
+	color: #4B889E;
+}
+.descriptionFeature{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	color: #707070;
+}
+.readMore{
+	color: white;
+	background-color: #4B889E;
+	padding: 10px 20px;
+	transition: 0.4s;
+}
+.readMore:hover{
+	 color: #4B889E;
+	 background-color: white;
+	 border-color: #4B889E;
+}
 
- 
+/*FEATURE*/
+.feature {
+ 	padding: 40px 0px;
+}
+.feature h1{
+	text-align: center;
+	text-transform: uppercase;
+	color: #707070;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 25px;
+}
+.feature .description{
+ 	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	color: #707070;
+	padding-bottom: 20px;
+}
+.feature h2,.icon{
+	text-align: center;
+}
+.feature .icon{
+	font-size: 70px;
+	background-color: #E94343;
+	border-radius: 7px 7px 0px 0px;
+	padding: 20px 0px;
+}
+
+.feature .border{
+	transition: 0.4s;
+	border-radius: 7px;
+	margin: 10px 20px;
+	box-shadow: 0px 4px 8px gray;
+}
