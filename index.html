@@ -6,52 +6,52 @@
 	<script type="text/javascript" src="vendor/bootstrap.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="vendor/bootstrap.css">
- 	<link rel="stylesheet" href="public/css/1.css">
+	<link rel="stylesheet" href="public/css/1.css">
 </head>
 <body >
-    <div class="index">
-    	<div class="menu navbar">
-    	<div class="container">
-    		<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-					 <span class="sr-only">Toggle navigation</span>
-					 <span class="icon-bar"></span>
-					 <span class="icon-bar"></span>
-					 <span class="icon-bar"></span>
-				</button>
-			<a href="" class="navbar-brand logo">Flosat</a>
+	<div class="index">
+		<div class="menu navbar">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a href="" class="navbar-brand logo">Flosat</a>
+				</div>
+
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#whatIsFlosat">Why Flosat?</a></li>
+						<li><a href="#feature">Feature</a></li>
+						<li><a href="#digits">Resource</a></li>
+						<li><a href="#contact">Pricing</a></li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fas fa-user"></i></a>
+							<ul class="dropdown-menu">
+								<li><a href="#"><i class="fas fa-user"></i>	Profile</a></li>
+								<li><a href="#"><i class="fas fa-cog"></i>	Setting</a></li>
+								<li role="separator" class="divider"></li>
+								<li><a href="#"><i class="fas fa-sign-in-alt"></i>	Sign out</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
 			</div>
-			
-			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-    			<ul class="nav navbar-nav navbar-right">
-    				<li><a href="#whatIsFlosat">Why Flosat?</a></li>
-    				<li><a href="#feature">Feature</a></li>
-    				<li><a href="#digits">Resource</a></li>
-    				<li><a href="#contact">Pricing</a></li>
-					<li class="dropdown">
-			          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fas fa-user"></i></a>
-			          <ul class="dropdown-menu">
-			            <li><a href="#"><i class="fas fa-user"></i>	Profile</a></li>
-			            <li><a href="#"><i class="fas fa-cog"></i>	Setting</a></li>
-			            <li role="separator" class="divider"></li>
-			            <li><a href="#"><i class="fas fa-sign-in-alt"></i>	Sign out</a></li>
-			          </ul>
-			        </li>
-    			</ul>
-    		</div>
-    	</div>
-    </div>
-    <!-- end menu -->
-    <div class="container">
-   		<div class="row">
-   			<div class="col-md-4">
-   				<h1>Flosat</h1>
-   				<p>Easy connect, easy to use!</p>    
-   				<div class="btn btn-info getStarted">Get started</div>
-    			</div>
-    		</div>
-    	</div>
-    </div>
+		</div>
+		<!-- end menu -->
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<h1>Flosat</h1>
+					<p>Easy connect, easy to use!</p>    
+					<a type="button" data-toggle="modal"  data-target="#modalSignup" class="btn btn-info getStarted">Get started</a>
+				</div>
+			</div>
+		</div>
+	</div>
 	<div class="whatIsFlosat" id="whatIsFlosat">
 		<div class="container">
 			<div class="row">
@@ -63,7 +63,7 @@
 			<div class="row">
 				<div class="col-md-6 video">
 					<div class="embed-responsive embed-responsive-16by9">
-					  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/v64KOxKVLVg"></iframe>
+						<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/v64KOxKVLVg"></iframe>
 					</div>
 				</div>
 				<!-- end video -->
@@ -77,171 +77,205 @@
 		</div>
 	</div>
 	<!-- end What is Flosat? -->
+	
+	<div class="modal fade modalLogin" id="modalSignup" tabindex="-1" role="dialog" aria-labelledby="gridSystemModalLabel">
+		<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-body signup">
+					<div class="row">
+						<div class="col-md-5 picture">
 
-	<div class="feature" id="feature">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<h1>FEATURE</h1>
-					<p class="description">Bacon ipsum dolor amet rump pastrami</p>
-				</div>
-			</div>
-			<!-- end title -->
-
-			<div class="row">
-				<div class="col-md-4 flowchart">
-					<div class="border">
-						<div class="icon">
-							<i class="fas fa-project-diagram"></i>
 						</div>
-						<h2>Flowchart</h2>
-						<ul>
-							<li>Bacon ipsum dolor amet </li>
-							<li>Short ribs alcatra turkey</li>
-							<li>Short loin drumstick jerky</li>
-							<li>Frankfurter sirloin ham</li>
-						</ul>
+						<div class="col-md-7 signupForm">
+							<p class="text-right step">Step 1 of 4</p>
+							<h1 class="text-center">SIGN UP</h1>
+							<p class="text-center">Create your account</p>
+							<form class="signupForm1">
+						          <div class="form-group">
+						          	<div class="input-group input-group-lg">
+							          	<span class="input-group-addon"><i class="fas fa-envelope"></i></span>
+							            <input type="text" class="form-control" id="recipient-name" placeholder="Email">
+						          	</div>
+						          </div>
+						          <div class="form-group">
+							          <div class="input-group input-group-lg">
+							          	<span class="input-group-addon"><i class="fas fa-unlock-alt"></i></span>
+							            <input type="Password" class="form-control" id="message-text" placeholder="Password"></input>
+						        	  </div>
+						          </div>
+						          <div class="btn btn-primary btn-block text-center">Next</div>
+						        </form>
+							</div>
+						</div>
+					</div>
+				</div><!-- /.modal-content -->
+			</div><!-- /.modal-dialog -->
+		</div><!-- /.modal -->
+		<!-- end modal -->
+		<div class="feature" id="feature">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h1>FEATURE</h1>
+						<p class="description">Bacon ipsum dolor amet rump pastrami</p>
 					</div>
 				</div>
-				<!-- end Flowchart -->
+				<!-- end title -->
 
-				<div class="col-md-4 chat">
-					<div class="border">
-						<div class="icon">
-							<i class="fas fa-comments"></i>
+				<div class="row">
+					<div class="col-md-4 flowchart">
+						<div class="border">
+							<div class="icon">
+								<i class="fas fa-project-diagram"></i>
+							</div>
+							<h2>Flowchart</h2>
+							<ul>
+								<li>Bacon ipsum dolor amet </li>
+								<li>Short ribs alcatra turkey</li>
+								<li>Short loin drumstick jerky</li>
+								<li>Frankfurter sirloin ham</li>
+							</ul>
 						</div>
-						<h2>Chat</h2>
-						<ul>
-							<li>Bacon ipsum dolor amet </li>
-							<li>Short ribs alcatra turkey</li>
-							<li>Short loin drumstick jerky</li>
-							<li>Frankfurter sirloin ham</li>
-						</ul>
 					</div>
-				</div>
-				<!-- end Chat -->
+					<!-- end Flowchart -->
 
-				<div class="col-md-4 agile">
-					<div class="border">
-						<div class="icon">
-							<i class="fas fa-project-diagram"></i>
+					<div class="col-md-4 chat">
+						<div class="border">
+							<div class="icon">
+								<i class="fas fa-comments"></i>
+							</div>
+							<h2>Chat</h2>
+							<ul>
+								<li>Bacon ipsum dolor amet </li>
+								<li>Short ribs alcatra turkey</li>
+								<li>Short loin drumstick jerky</li>
+								<li>Frankfurter sirloin ham</li>
+							</ul>
 						</div>
-						<h2>Agile</h2>
-						<ul>
-							<li>Bacon ipsum dolor amet </li>
-							<li>Short ribs alcatra turkey</li>
-							<li>Short loin drumstick jerky</li>
-							<li>Frankfurter sirloin ham</li>
-						</ul>
 					</div>
+					<!-- end Chat -->
+
+					<div class="col-md-4 agile">
+						<div class="border">
+							<div class="icon">
+								<i class="fas fa-project-diagram"></i>
+							</div>
+							<h2>Agile</h2>
+							<ul>
+								<li>Bacon ipsum dolor amet </li>
+								<li>Short ribs alcatra turkey</li>
+								<li>Short loin drumstick jerky</li>
+								<li>Frankfurter sirloin ham</li>
+							</ul>
+						</div>
+					</div>
+					<!-- end Agile -->
 				</div>
-				<!-- end Agile -->
 			</div>
 		</div>
-	</div>
-	<!-- end Feature -->
+		<!-- end Feature -->
 
-	<div class="digits" id="digits">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 titleDigits">
-					<h1>We uphold high Ethical Standards</h1>
+		<div class="digits" id="digits">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 titleDigits">
+						<h1>We uphold high Ethical Standards</h1>
+					</div>
 				</div>
-			</div>
-			<!-- end title -->
+				<!-- end title -->
 
-			<div class="row infoDigits">
-				<div class="col-md-4">
-					<h1>537+</h1>
-					<p>Pioneer Breakthroughs</p>
-				</div>
-				<div class="col-md-4">
-					<h1>1082+</h1>
-					<p>Client Expectations</p>
-				</div>
-				<div class="col-md-4">
-					<h1>981+</h1>
-					<p>Delivered Promises</p>
+				<div class="row infoDigits">
+					<div class="col-md-4">
+						<h1>537+</h1>
+						<p>Pioneer Breakthroughs</p>
+					</div>
+					<div class="col-md-4">
+						<h1>1082+</h1>
+						<p>Client Expectations</p>
+					</div>
+					<div class="col-md-4">
+						<h1>981+</h1>
+						<p>Delivered Promises</p>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-	<!-- end Digits -->
+		<!-- end Digits -->
 
-	<div class="footer">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-4">
-					<h1>Flosat</h1>
-					<p class="slogan"> Easy connect, easy to use!</p>
-					<p class="contact">Contact us</p>
-					<div class="col-md-12 iconbox">
-			            <div class="iconbox">
-			            <div class="icon1">
-			              <b class="fab fa-facebook-f"></b>
-			            </div>
-			            <div class="icon2">
-			              <b class="fab fa-twitter"></b>
-			            </div>
-			            <div class="icon3">
-			              <b class="fas fa-envelope"></b>
-			            </div>
-			            </div>
-			         </div>
-					<p class="copyright">Copyright <i class="far fa-copyright"></i> by Flosat 2019</p>
+		<div class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<h1>Flosat</h1>
+						<p class="slogan"> Easy connect, easy to use!</p>
+						<p class="contact">Contact us</p>
+						<div class="col-md-12 iconbox">
+							<div class="iconbox">
+								<div class="icon1">
+									<b class="fab fa-facebook-f"></b>
+								</div>
+								<div class="icon2">
+									<b class="fab fa-twitter"></b>
+								</div>
+								<div class="icon3">
+									<b class="fas fa-envelope"></b>
+								</div>
+							</div>
+						</div>
+						<p class="copyright">Copyright <i class="far fa-copyright"></i> by Flosat 2019</p>
+					</div>
+					<div class="col-md-8 infoFooter">
+						<div class="col-md-3">
+							<p class="title">Product</p>
+							<ul>
+								<li>Why Flosat?</li>
+								<li>Flowchart</li>
+								<li>Scrum</li>
+								<li>Security</li>
+								<li>Pricing</li>
+							</ul>
+						</div>
+						<!-- end Product -->
+
+						<div class="col-md-3">
+							<p class="title">Flosat for team</p>
+							<ul>
+								<li>Why Flosat?</li>
+								<li>Flowchart</li>
+								<li>Scrum</li>
+								<li>Security</li>
+								<li>Pricing</li>
+								<li>Security</li>
+								<li>Pricing</li>
+							</ul>
+						</div>
+						<!-- end Flosat for team -->
+
+						<div class="col-md-3">
+							<p class="title">Resources</p>
+							<ul>
+								<li>Why Flosat?</li>
+								<li>Flowchart</li>
+								<li>Scrum</li>
+							</ul>
+						</div>
+						<!-- end Resource -->
+
+						<div class="col-md-3">
+							<p class="title">Company</p>
+							<ul>
+								<li>Why Flosat?</li>
+								<li>Flowchart</li>
+								<li>Scrum</li>
+								<li>Security</li>
+								<li>Pricing</li>
+								<li>Pricing</li>
+							</ul>
+						</div>
+						<!-- end Company -->
+					</div>
 				</div>
-				<div class="col-md-8 infoFooter">
-					<div class="col-md-3">
-					<p class="title">Product</p>
-					<ul>
-						<li>Why Flosat?</li>
-						<li>Flowchart</li>
-						<li>Scrum</li>
-						<li>Security</li>
-						<li>Pricing</li>
-					</ul>
-					</div>
-					<!-- end Product -->
-
-					<div class="col-md-3">
-						<p class="title">Flosat for team</p>
-						<ul>
-							<li>Why Flosat?</li>
-							<li>Flowchart</li>
-							<li>Scrum</li>
-							<li>Security</li>
-							<li>Pricing</li>
-							<li>Security</li>
-							<li>Pricing</li>
-						</ul>
-					</div>
-					<!-- end Flosat for team -->
-
-					<div class="col-md-3">
-						<p class="title">Resources</p>
-						<ul>
-							<li>Why Flosat?</li>
-							<li>Flowchart</li>
-							<li>Scrum</li>
-						</ul>
-					</div>
-					<!-- end Resource -->
-
-					<div class="col-md-3">
-						<p class="title">Company</p>
-						<ul>
-							<li>Why Flosat?</li>
-							<li>Flowchart</li>
-							<li>Scrum</li>
-							<li>Security</li>
-							<li>Pricing</li>
-							<li>Pricing</li>
-						</ul>
-					</div>
-					<!-- end Company -->
-				</div>
-			</div>
-			<!-- end Infomation -->
+				<!-- end Infomation -->
 			</div>
 		</div>
 	</div>
