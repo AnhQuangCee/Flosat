@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en"><head>
-	<title> Sign up </title>
+	<title> Login </title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">  
 	<script type="text/javascript" src="vendor/bootstrap.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="vendor/bootstrap.css">
-	<link rel="stylesheet" href="public/css/signup.css">
+	<link rel="stylesheet" href="public/css/login.css">
 </head>
 <body >
 	<div class="signup">
@@ -16,9 +16,7 @@
 					
 				</div>
 				<div class="col-md-8 signupForm">
-					<p class="text-right step">Step 1 of 4</p>
-					<h1 class="text-center">SIGN UP</h1>
-					<p class="text-center">Create your account</p>
+					<h1 class="text-center">LOGIN</h1>
 					<form class="signupForm1">
 						<div class="form-group">
 							<div class="input-group input-group-lg">
@@ -28,11 +26,17 @@
 						</div>
 						<div class="form-group">
 							<div class="input-group input-group-lg">
-								<span class="input-group-addon"><i class="fas fa-phone-square-alt"></i></span>
-								<input type="text" class="form-control" id="message-text" placeholder="Number Phone"></input>
+								<span class="input-group-addon"><i class="fas fa-unlock-alt"></i></span>
+								<input type="password" class="form-control" id="message-text" placeholder="Password"></input>
 							</div>
 						</div>
-						<a href="signup2.html" class="btn btn-primary btn-block text-center">Next</a>
+						<label class="checkBox">Remember password
+							<input type="checkbox" checked="checked">
+							<span class="checkmark"></span>
+						</label>
+						<a href="signup2.html" class="btn btn-primary btn-block text-center">Login</a>
+						<p class="text-center signupAccount"><a>Already have an account?</a></p>
+						<p class="text-center copyright">Copyright <i class="far fa-copyright"></i> by Flosat 2019</p>
 					</form>
 				</div>
 			</div>

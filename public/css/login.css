@@ -1,0 +1,173 @@
+*{margin:0;padding:0;}
+html,body{
+	height: 100%;
+	width: 100%;
+}
+body{
+	background-image: url("../.././images/workspace.jpg");
+	width: auto;
+	height: 100%;
+	overflow-x: hidden;
+}
+.signup{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	height: 440px;
+	width: 750px;
+	background-color: white;
+	border-radius: 10px;
+}
+.signup .picture{
+	height: 420px;
+	width: 280px;
+	border-radius: 10px 0px 0px 10px;
+	background-color: white;
+	float: left;
+}
+.signup .signupForm{
+	height: 440px;
+	width: 470px;
+	background-image: linear-gradient(-90deg,#326375,#345A6B);
+	border-radius: 0px 10px 10px 0px;
+}
+.signup .signupForm1{
+	width: 380px;
+	margin-left: 7%;
+	margin-top: 30px;
+}
+.signup .step{
+	color: white;
+	padding: 30px 30px 0px 30px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+}
+.signup h1{
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	padding-top: 15%;
+}
+.signup p{
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+}
+.signup .btn{
+	background-color: #4EA8B4;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 22px;
+}
+.form-control{
+	background-color: transparent;
+	border-color: white;
+	color: white;
+}
+.form-control:focus,active{
+	box-shadow: none;
+	border-color: white;
+}
+.input-group-addon{
+	background-color: transparent;
+	color: white;
+	border-color: white;
+}
+input[type="text"]{
+	font-family: 'Montserrat', sans-serif;
+}
+input[type="password"]{
+	font-family: 'Montserrat', sans-serif;
+}
+input[type="text"]::placeholder {
+  color: white;
+}
+input[type="password"]::placeholder {
+  color: white;
+}
+.signup .stepBlock a{
+	cursor: pointer;
+}
+.signup .signupForm1 p{
+	font-size: 12px;
+}
+.signup .signupForm1 .signupAccount{
+	font-family: 'Montserrat', sans-serif;
+  	font-size: 17px;
+  	padding-top: 5%;
+  	cursor: pointer;
+}
+.signup .signupForm1 .signupAccount a{
+	color: white;
+}
+.signup .signupForm1 .copyright{
+	font-family: 'Montserrat', sans-serif;
+  	font-size: 15px;
+  	cursor: pointer;
+}
+/* The container */
+.checkBox {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 14px;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  color: white;
+}
+
+/* Hide the browser's default checkbox */
+.checkBox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 17px;
+  width: 17px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.checkBox:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.checkBox input:checked ~ .checkmark {
+  background-color: white;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.checkBox input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.checkBox .checkmark:after {
+  left: 6px;
+  top: 3px;
+  width: 5px;
+  height: 10px;
+  border: solid #326375;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
