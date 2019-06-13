@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en"><head>
-	<title> Sign up </title>
+	<title> Sign up 2 </title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">  
 	<script type="text/javascript" src="vendor/bootstrap.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="vendor/bootstrap.css">
-	<link rel="stylesheet" href="public/css/signup.css">
+	<link rel="stylesheet" href="public/css/signup2.css">
 </head>
 <body >
 	<div class="signup">
@@ -16,23 +16,28 @@
 					
 				</div>
 				<div class="col-md-8 signupForm">
-					<p class="text-right step">Step 1 of 4</p>
+					<div class="stepBlock" >
+						<a href="signup.html" style="float: left;" class="text-left step"><i class="fas fa-arrow-left"></i></a>
+						<p class="text-right step">Step 2 of 4</p>
+					</div>
+					
 					<h1 class="text-center">SIGN UP</h1>
 					<p class="text-center">Create your account</p>
 					<form class="signupForm1">
 						<div class="form-group">
 							<div class="input-group input-group-lg">
-								<span class="input-group-addon"><i class="fas fa-user"></i></span>
-								<input type="text" class="form-control" id="recipient-name" placeholder="Username">
+								<span class="input-group-addon"><i class="fas fa-envelope"></i></span>
+								<input type="text" class="form-control" id="recipient-name" placeholder="Email">
 							</div>
 						</div>
 						<div class="form-group">
 							<div class="input-group input-group-lg">
 								<span class="input-group-addon"><i class="fas fa-unlock-alt"></i></span>
-								<input type="Password" class="form-control" id="message-text" placeholder="Password"></input>
+								<input type="text" class="form-control" id="message-text" placeholder="Number Phone"></input>
 							</div>
 						</div>
-						<a href="signup2.html" class="btn btn-primary btn-block text-center">Next</a>
+						<p>By signing up, you agree to the Terms of Service and Privacy Policy, including Cookie Use. Others will be able to find you by email or phone number when provided · Privacy Options</p>
+						<div class="btn btn-primary btn-block text-center">Next</div>
 					</form>
 				</div>
 			</div>
