@@ -235,26 +235,13 @@ b{
   background-color: #f1f1f1;
   font-size: 20px;
 }
-.flex1{
-    display:flex;
-    flex: 1;
-    flex-direction: row;
-    align-content:flex-end;
-    height: 100%;
+.container-chat{
     border: 1px solid black;
-    margin: 0% 4%;
     border-radius: 5px;
+    height: 100%;
+    margin: 0% 4%;
 }
-.voice{
-  flex: 0.25;
-  padding: 1% 0% 1% 1.5%;
-  border-right: 1px solid black;
-  cursor: pointer;
-}
-.search{
-  flex: 9;
-  justify-content: center;
-}
+
 .mb-3{
   margin-bottom: 0rem!important;
 }
@@ -262,20 +249,107 @@ input[type="text"]{
   height: 50px;
   font-size: 20px;
   background-color: #f1f1f1;
+  border: 0px;
 }
 .form-control:focus{
   background-color: #f1f1f1;
 }
-.iconBox{
-  padding: 1% 1% 1% 1%;
-  flex: 0.75;
+
+.search{
+  width: 850px;
 }
-.iconBox ul{
-  display: inline;
+.chat-box{
+  padding: 0px 5px;
+}
+/*CONTENT*/
+.child2-content{
+  height: 550px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  margin-right: 2px;
+}
+.avatar-content{
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  background-color: white;
+  float: left;
+  border:1px solid black;
+  margin: 5px;
+}
+.container-content .name-content1{
+  margin: 0px;
+  font-size: 20px;
+}
+.container-content .name-content2{
+  margin: 0px;
+  font-size: 16px;
+  color: #3577EF;
+}
+.container-content{
+  margin: 2%;
+}
+.container-content p{
+  font-size: 17px;
+}
+.container-content .time-content{
+  font-size: 15px;
+  padding-top: 1%;
+}
+.container-content .messenge{
+  border:1px solid black;
+  padding: 3%;
+  border-radius: 5px;
+  margin-top: 2%;
+}
+
+/*ALERT*/
+.col-md-2{
   padding: 0px;
 }
-.iconBox ul li{
-  display: inline;
-  margin: 7px;
-  cursor: pointer;
+.avatar-alert{
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  background-color: white;
+  float: left;
+  border:1px solid black;
+  margin: 2%;
+}
+.container-content .name-alert1{
+  margin: 0px;
+  font-size: 15px;
+}
+.container-content .name-alert2{
+  margin: 0px;
+  font-size: 13px;
+  color: #3577EF;
+}
+.container-content .time-alert{
+  font-size: 10px;
+  padding-top: 1%;
+}
+.messenger-alert {
+  width: 450px;
+}
+/*Scrollbar*/
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #707070; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #707070; 
 }
