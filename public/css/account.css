@@ -1,0 +1,166 @@
+/*!
+ * Start Bootstrap - Simple Sidebar (https://startbootstrap.com/template-overviews/simple-sidebar)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-simple-sidebar/blob/master/LICENSE)
+ */
+ body {
+  overflow-x: hidden;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#sidebar-wrapper {
+  min-height: 100vh;
+  margin-left: -15rem;
+  -webkit-transition: margin .25s ease-out;
+  -moz-transition: margin .25s ease-out;
+  -o-transition: margin .25s ease-out;
+  transition: margin .25s ease-out;
+}
+
+#sidebar-wrapper .sidebar-heading {
+  padding: 0.875rem 1.25rem;
+  font-size: 1.2rem;
+}
+
+#sidebar-wrapper .list-group {
+  width: 60px;
+}
+
+#page-content-wrapper {
+  min-width: 100vw;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+  margin-left: 0;
+}
+
+#list-chat{
+  width: 300px;
+  padding: 0px 10px;
+  background-image: linear-gradient(-90deg,#336172,#1C3944);
+}
+.list-group-item{
+  padding: 5px 0px;
+  border: 0px;
+  padding-left: 10%; 
+  margin: 1%;
+}
+a.bg-light:focus, a.bg-light:hover, button.bg-light:focus, button.bg-light:hover{
+  border-radius: 5px;
+}
+.bg-light{
+  background-color: transparent!important;
+}
+.list-group-item-action{
+  color: white;
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  #sidebar-wrapper {
+    margin-left: 0;
+  }
+
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: -15rem;
+  }
+}
+
+/*CUSTOME*/
+.account{
+  height: 40px;
+  width: 40px;
+  background-color: #E07373;
+  border-radius: 50%;
+  margin: 40px 10px;
+  cursor: pointer;
+}
+.flowchart{
+  height: 40px;
+  width: 40px;
+  background-color: #318CAE;
+  border-radius: 50%;
+  margin: 40px 10px;
+  cursor: pointer;
+}
+.chat{
+  height: 40px;
+  width: 40px;
+  background-color: #5AA97F;
+  border-radius: 50%;
+  margin: 40px 10px;
+  cursor: pointer;
+}
+.agile{
+  height: 40px;
+  width: 40px;
+  background-color: #E94343;
+  border-radius: 50%;
+  margin: 40px 10px;
+  cursor: pointer;
+}
+.container{
+  width: 100%;
+}
+.avatar{
+  height: 150px;
+  width: 150px;
+  background-color: white;
+  border-radius: 50%;
+  margin: 40% 16% 0% 16%;
+}
+.list-group li{
+  list-style: none;
+  text-align: center;
+  color: white;
+}
+.list-group .name{
+  font-size: 22px;
+  margin-top: 10%;
+}
+.username{
+  margin-top: 4%;
+  padding: 0% 7%;
+}
+.username h5{
+  padding-top: 2%;
+  color: #4B889E;
+}
+.my-account{
+  margin-top: 7%;
+  color: #4B889E;
+}
+
+/*CONTENT*/
+.account-box{
+  border: 1px solid #4B889E;
+  height: 500px;
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 7%;
+}
+/*Scrollbar*/
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #707070; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #707070; 
+}

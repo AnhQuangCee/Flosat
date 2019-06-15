@@ -152,6 +152,9 @@ h3{
 .border-bottom {
     border-bottom: 0px solid #dee2e6!important;
 }
+.input-search{
+  width: 500px;
+}
 /*INFORMATION ACCOUNT RIGHT SIDEBAR*/
 .information-account{
   width: 320px;
@@ -331,6 +334,11 @@ input[type="text"]{
 }
 .messenger-alert {
   width: 450px;
+}
+.container-alert{
+  overflow-y: scroll;
+  /*overflow-x: visible;*/
+  height: 200px;
 }
 /*Scrollbar*/
 /* width */
